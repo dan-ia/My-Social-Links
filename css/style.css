@@ -1,0 +1,188 @@
+/* RESET */
+* {
+    font-family: 'Alice', serif;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a, h1, i, p {
+    color: rgb(255, 255, 255);
+}
+
+i {
+    font-size: 25px;
+}
+
+/* Pág */
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+    background-color: #040506;
+
+}
+
+.social {
+    width: 400px;
+    height: 650px;
+
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+    padding: 20px;
+
+    transition: 0.5s linear;
+}
+
+.social-animation{
+    height: 850px;
+    transition: 1.5s;
+}
+
+.social:hover {
+    box-shadow: 0px 2px 10px #770c0c;
+}
+
+.header-social {
+    padding: 30px 0 20px 0;
+    width: 100%;
+}
+
+.img {
+    width: 150px;
+    border-radius: 50%;
+
+    transition: 1s;
+}
+
+.animation {
+    /* margin-left: 90px; */
+    width: 100%;
+    border-radius: 3%;
+
+    box-shadow: -1px 0px 20px #770c0c;
+
+    transition: 1.5s;
+}
+
+h1, p {
+    padding: 5px 0;
+}
+
+span {
+    font-size: 10px;
+    color: #888888;
+
+}
+
+.social-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.ul-main {
+    width: 100%;
+}
+
+.list-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    width: 100%;
+
+    margin: 0 0 10px 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+
+    background: linear-gradient(50deg, #181818, #000000,#000000);
+    background-size: 200%;
+
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+
+}
+
+.list-main:hover {
+    padding-left: 25px;
+    background-position: right;
+
+    transition: 0.3s linear;
+    opacity: 1;
+}
+
+
+.social-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.ul-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+
+
+}
+
+.list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    padding: 25px;
+    margin: 20px 20px 0 20px;
+
+    border-radius: 100%;
+
+    
+    background: linear-gradient(90deg, #181818, #000000,#000000);
+    background-size: 200%;
+
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+}
+
+.list-footer:hover {
+    background-position: bottom;
+    opacity: 1;
+
+    width: 65px;
+    height: 65px;
+
+
+    transition: 0.2s ease-in;
+}
